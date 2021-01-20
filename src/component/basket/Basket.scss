@@ -1,0 +1,21 @@
+.basket {
+  &__icon {
+    margin-bottom: 12px;
+  }
+  &__item {
+    margin: 1em 0 1em 5px;
+  }
+  &__summary {
+    min-height: 50vh;
+    margin-top: 2em;
+    margin-right: 2em;
+    padding: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  &__remove {
+    margin: 1em 0 1em 0;
+  }
+  &__section {
+    margin: 0 0 2em 0;
+  }
+}

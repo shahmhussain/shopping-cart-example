@@ -1,0 +1,21 @@
+.shop-item {
+  margin-top: 2em;
+  padding: 2em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  &__details {
+    margin: 1em 0 1em 0;
+  }
+
+  &__unit {
+  }
+
+  &__unit-description {
+    margin: 0 2em 0 6px;
+  }
+
+  &__error-message {
+    color: red;
+    margin-top: 1em;
+  }
+}
