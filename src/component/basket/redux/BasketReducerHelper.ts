@@ -1,4 +1,4 @@
-import { IShopItemDiscountInfo } from "../../shop-item/interfaces/IShopItemDiscountInfo";
+import { IShopItemDiscountInfo } from "../../shop/shop-item/interfaces/IShopItemDiscountInfo";
 import { IBasketItem } from "../interfaces/IBasketItem";
 import { IDiscountApplied } from "../interfaces/IDiscountApplied";
 

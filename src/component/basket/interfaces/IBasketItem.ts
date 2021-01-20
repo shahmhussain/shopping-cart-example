@@ -1,4 +1,4 @@
-import { IShopItemDiscountInfo } from "../../shop-item/interfaces/IShopItemDiscountInfo";
+import { IShopItemDiscountInfo } from "../../shop/shop-item/interfaces/IShopItemDiscountInfo";
 
 export interface IBasketItem {
     itemName: string;

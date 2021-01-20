@@ -2,8 +2,8 @@ import * as React from "react";
 import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import { useDispatch } from "react-redux";
-import { addItemToBasket } from "../basket/redux/basketSlice";
-import { convertNumberToCurrency } from "../../app/currency";
+import { addItemToBasket } from "../../basket/redux/basketSlice";
+import { convertNumberToCurrency } from "../../../app/currency";
 import { IShopItemDiscountInfo } from "./interfaces/IShopItemDiscountInfo";
 import "./ShopItem.scss";
 

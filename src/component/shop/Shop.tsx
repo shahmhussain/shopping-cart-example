@@ -1,5 +1,5 @@
 import * as React from "react";
-import { IShopItemProps, ShopItem } from "../shop-item/ShopItem";
+import { IShopItemProps, ShopItem } from "./shop-item/ShopItem";
 import "./Shop.scss";
 
 type IShopProps = {
@@ -23,12 +23,6 @@ export const Shop = ({ shopItems }: IShopProps) => {
           ></ShopItem>
         );
       })}
-      {/*   
-            Face Masks (£2.50 each)
-            Toilet Paper (65p per roll)
-            Hand Sanitizer (£19.99 per litre).
-            0.175 l @ £19.99/l 3.50
-        */}
     </div>
   );
 };

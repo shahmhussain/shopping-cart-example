@@ -1,4 +1,4 @@
-import { IShopItemProps } from "../shop-item/ShopItem";
+import { IShopItemProps } from "./shop-item/ShopItem";
 
 export const shopItems: IShopItemProps[] = [
     {
