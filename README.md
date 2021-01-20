@@ -32,9 +32,11 @@ Discount codes are applied based off the itemDiscount object
       },
     },
 ```
+
     It is better to apply discounts based off the data passed in
     so if business wanted to change the discount type to 3 for 2,
     they could easily do this in the application, like this:
+
 ```
     {
       itemName: "Toilet Paper",
